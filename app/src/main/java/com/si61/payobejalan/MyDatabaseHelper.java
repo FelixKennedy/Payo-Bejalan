@@ -52,4 +52,8 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
         long eksekusi = db.insert(TABLE_NAME, null, cv);
         return eksekusi;
     }
+
+    public long tambahData(String nama, String alamat, String jam) {
+        return 0;
+    }
 }
